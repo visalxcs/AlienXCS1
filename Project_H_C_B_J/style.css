@@ -1,0 +1,46 @@
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  color: #ffbb33;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #ffbb33;
+}
+
+#cart-count {
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+/* ================= HERO CAROUSEL ================= */
+.hero-img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+.carousel-caption h1 {
+  font-size: 2.5rem;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 1.8rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
